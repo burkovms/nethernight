@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="container">
+    <div class="container-fluid">
       <search></search>
     </div>
   </header>
@@ -18,6 +18,8 @@ export default {
 
 <style lang="scss">
 header {
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: $dark;
   font-size: $font-size-root;
   color: $white;

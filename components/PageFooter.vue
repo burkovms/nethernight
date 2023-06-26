@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <div class="container">
+    <div class="container-fluid">
       <div class="footer__row">
         <div class="footer__col">
           <nuxt-link
@@ -44,8 +44,8 @@ export default {}
   background-color: $dark;
   font-size: $font-size-root;
   color: $white;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   &__row {
     display: flex;

@@ -7,6 +7,17 @@ body {
   font-family: $font_family;
 }
 
+.container-fluid {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  @media (min-width: 1680px) {
+    max-width: 1680px;
+  }
+}
+
 a {
   text-decoration: none;
   color: $violet;
