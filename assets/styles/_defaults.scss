@@ -1,0 +1,48 @@
+/*-------------------- FONTS --------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: $font_family;
+}
+
+a {
+  text-decoration: none;
+  color: $violet;
+  font-weight: 700;
+  transition: 0.3s ease;
+  &:hover {
+    color: $white;
+  }
+}
+
+th {
+  text-transform: uppercase;
+}
+
+input {
+  &::placeholder {
+    transition: 0.3s ease;
+  }
+  &:focus {
+    &::placeholder {
+      transform: translateX(4px);
+      opacity: 0;
+    }
+  }
+}
+
+.theme--dark {
+  &.v-pagination {
+    .v-pagination__item {
+      &:hover {
+        background-color: $violet;
+      }
+    }
+  }
+}
+
+.v-btn {
+  background-color: $violet;
+}
