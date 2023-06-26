@@ -3,8 +3,8 @@
     <div class="container-fluid">
       <div class="footer__row">
         <div class="footer__col">
-          <nuxt-link
-            to="https://github.com/burkovms/nethernight"
+          <a
+            href="https://github.com/burkovms/nethernight"
             class="link"
             target="_blank"
           >
@@ -19,16 +19,16 @@
               />
             </svg>
             <span>GitHub</span>
-          </nuxt-link>
+          </a>
         </div>
         <div class="footer__col">
-          <nuxt-link
-            to="https://burkovms.github.io/portfolio/"
+          <a
+            href="https://burkovms.github.io/portfolio/"
             class="link"
             target="_blank"
           >
             Mykhailo Burkov - Portfolio
-          </nuxt-link>
+          </a>
         </div>
       </div>
     </div>
